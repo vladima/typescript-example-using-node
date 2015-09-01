@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "main": "./dist/tslib.js",
-  "typescript": {
-    "definition": "./dist/tslib.d.ts"
-  },
+  "typings":"./dist/tslib.d.ts",
   "scripts": {
     "build": "tsc --version ; tsc -p src/"
   },
