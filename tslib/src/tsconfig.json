@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "commonjs",
+        "sourceMap": true,
+        "target": "ES5",
+        "outDir": "../dist"
+    },
+    "files": [
+      "./tslib.ts"
+    ]
+}

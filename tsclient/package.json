@@ -1,0 +1,12 @@
+{
+  "name": "tsclient",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc --version ; tsc -p src/",
+    "start": "node dist/app.js"
+  },
+  "author": "David Souther <davidsouther@gmail.com> (https://davidsouther.com/)",
+  "license": "ISC"
+}

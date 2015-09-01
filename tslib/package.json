@@ -1,0 +1,17 @@
+{
+  "name": "tslib",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist/tslib.js",
+  "typescript": {
+    "definition": "./dist/tslib.d.ts"
+  },
+  "scripts": {
+    "build": "tsc --version ; tsc -p src/"
+  },
+  "author": "David Souther <davidsouther@gmail.com> (https://davidsouther.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^1.7.0-dev.20150831"
+  }
+}

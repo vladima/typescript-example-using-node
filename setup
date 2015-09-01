@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -x
+
+cd tslib
+npm install
+npm link
+npm run build
+cd ../tsclient
+npm link tslib
+npm install
+npm run build
+node ./dist/app.js <<QUESTION
+What is the meaning of life?
+QUESTION
+
+set +x
